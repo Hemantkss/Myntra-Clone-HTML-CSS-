@@ -1,0 +1,171 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Assistant", sans-serif;
+}
+    
+
+/* nav bar edits*/
+
+.nav{
+    display: flex;
+    height: 80px;
+    color: black;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f6f6f6;
+}
+.mynta-home{
+    height: 45px;
+    margin-left: 40px;
+    
+}
+.nav-bar{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+    font-weight: 700;
+    color: black;
+    border-bottom: 3px solid white;
+
+}
+.nav-bar a:hover{
+    border-bottom: 3px solid #f54e77;
+}
+.nav-bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    font-weight: 700;
+    padding: 25px;
+}
+
+.new{
+    font-size: 10px;
+    color: red;
+    font-weight: 400;
+}
+
+
+
+.search-bar{
+    height: 40px;
+    min-width: 100px;
+    width: 30%;
+    display: flex;
+    background-color: #d7e0f0;
+    align-items: center;
+
+}
+.search-navicon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    font-weight: 700;
+    color: #0e1016;
+    border-radius: 4px 0 0 4px;
+
+
+}
+.search-input{ 
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0, 4px, 4px, 0;
+
+}
+/*action bar profile wishlist bag edits*/
+
+.action-bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-around;
+    padding-right: 20px;
+    font-weight: 600;
+    
+}
+
+
+.action-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* MAIN BACKGROUND IMAGE, CATRGORY, OFEERS,EDITS*/
+
+
+
+.banner-container{
+    margin: 40px 0;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.categoty-heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.sale-item{
+    width: 250px;
+
+}
+
+
+
+/* FOOTER, COPYRIGHT EDITS*/
+
+.footer-container{
+    padding: 30px 0px 40px 0px;
+    background-color: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+.footer-column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.footer-column a{
+    color: #696e79;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+
+.copyright{
+    color: #94969f;
+    text-align: end;
+    padding: 25px;
+}
+
+
+
+    
